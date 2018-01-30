@@ -42,13 +42,11 @@ public class NumberWizard : MonoBehaviour {
 	void Update () {
 	
 		if (Input.GetKeyDown(KeyCode.UpArrow)) {
-			//print("Higher?");
 			min = guess;
 			NextGuess();
 
 		}
 		else if (Input.GetKeyDown(KeyCode.DownArrow)) {
-			print("Lower?");
 			max = guess;
 			NextGuess();
 		}
